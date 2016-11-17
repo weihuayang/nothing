@@ -1,0 +1,2 @@
+set nu
+hi Comment ctermfg=darkred
