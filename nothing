@@ -1,2 +1,5 @@
 set nu
 hi Comment ctermfg=darkred
+
+#查看中断分布
+cat /proc/interrupts  
