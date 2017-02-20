@@ -1,5 +1,12 @@
 set nu
 hi Comment ctermfg=darkred
 
+set autoindent      #自动缩进
+set cindent         #自动缩进
+set tabstop=2       #tab宽度
+set softtabstop=2   #缩进宽度
+set shiftwidth=2    #缩进宽度
+set noexpandtab     #不用空格替换tab
+
 #查看中断分布
 cat /proc/interrupts  
