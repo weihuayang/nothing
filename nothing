@@ -1,12 +1,16 @@
+~/.vimrc
+
 set nu
 hi Comment ctermfg=darkred
 
-set autoindent      #自动缩进
-set cindent         #自动缩进
-set tabstop=2       #tab宽度
-set softtabstop=2   #缩进宽度
-set shiftwidth=2    #缩进宽度
-set noexpandtab     #不用空格替换tab
+call pathogen#infect()
+
+set autoindent      "自动缩进
+set cindent         "自动缩进
+set tabstop=2       "tab宽度
+set softtabstop=2   "缩进宽度
+set shiftwidth=2    "缩进宽度
+set noexpandtab     "不用空格替换tab
 
 "开启光亮光标行
   set cursorline
@@ -15,6 +19,8 @@ set noexpandtab     #不用空格替换tab
 "开启高亮光标列
 "  set cursorcolumn
 "    hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white`
+
+
 
 
 #查看中断分布
